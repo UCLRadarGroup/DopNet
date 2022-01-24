@@ -2,13 +2,13 @@
 
 Data is organised in a structure( .mat file) with 4 cells which represent each this data from one gesture:
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/d6c3df89d0591845b0767f480ac31bd7042eb2b6/images/Picture7.png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/a432ca9699c231229fe41a62072d4096a01f48d6/images/Picture7.png?raw=true)
 
 The number of samples per person for the Training Data
 
 The test Data is also a cell( .mat file) which contains the following:
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/d6c3df89d0591845b0767f480ac31bd7042eb2b6/images/Picture8.png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/a432ca9699c231229fe41a62072d4096a01f48d6/images/Picture8.png?raw=true)
 
 The codes are presented in the folder Example Codes.
 
