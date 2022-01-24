@@ -21,17 +21,17 @@ Radar sensors have previously been successfully used to classify different actio
 
 A typical short-range radar system architecture is the Frequency Modulated Continuous Wave (FMCW) radar. This constantly transmits a Chirp, which is a signal that increases (up-chirp) or decreases (down-chirp) its frequency linearly with time. This is then mixed with the received signal in order to obtain the range/Doppler of a target. The data generated for this classification challenge was created using an Ancortek 24 GHz FMCW radar a 750 MHz bandwidth, more details about the radar system can be seen in the table below:
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/cf4e4cc1708df74fff0f5ea4e09c0947709de910/images/Picture4.png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/6221b177c76048d356d0ea62ca5210772be55c1e/images/Picture4.png?raw=true)
 
 The focus on this data challenge is the classification of 4 separate hand gestures. There has been a vast amount of research into various technologies used as human-machine interfaces (HMI). This includes the Microsoft Kinetic Sensor, Virtual Reality wand controllers and even sensors that read your brainwaves. Recently Google has developed a small radar sensor call Soli which is proposed as a device for gesture recognition [1]. This research challenge proposes the use of a compact Radar sensor as a device that can be used in HMI and has encouraged researchers to investigate the feasibility of a radar device in this roll.
 
 Some examples of gestures are Wave / Pinch / Click / Swipe.
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/cf4e4cc1708df74fff0f5ea4e09c0947709de910/images/Picture5.png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/6221b177c76048d356d0ea62ca5210772be55c1e/images/Picture5.png?raw=true)
 
 Radar sensors have previously been successfully used to classify different actions such as walking, carrying an item, discriminating between people and animals gaits or drones and bird targets. All of this analysis used the phenomenon called Micro-Doppler which is the additional movements a target has on top of its bulk velocity. For example, a person may walk forwards at 3 m/s but as they move at this speed their arms and legs oscillate back and forth. This movement creates a signature which was coined as Micro-Doppler by researcher V. Chen. The image below shows an example plot of a micro-Doppler signature of a person walking towards a radar.
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/cf4e4cc1708df74fff0f5ea4e09c0947709de910/images/Picture6.png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/6221b177c76048d356d0ea62ca5210772be55c1e/images/Picture6.png?raw=true)
 
 In order to evaluate how effective a radar is in recognising gestures, this challenge provides data that can be used to apply classification methods. A database of gestures has been created and uploaded here using the Ancortek Radar system. This database includes signals from 4 different types (Wave / Pinch / Click / Swipe). The data itself has been pre-processed so that the signatures have been cut into individual actions from a long data stream, filtered to enhance the desired components and processed to produce the Doppler vs. time-domain data. The data is then stored in this format in order for it to be read in, features to be extracted and the classification process to be performed.
 
@@ -47,7 +47,7 @@ The Ancortek Radar system used to generate the dataset is a 24 GHz FMCW radar th
 
 Example of a Doppler vs. Time matrix for each gesture can be seen below:
 
-![alt text](https://github.com/UCLRadarGroup/DopNet/blob/cf4e4cc1708df74fff0f5ea4e09c0947709de910/images/Picture3-635x500%20(1).png?raw=true)
+![alt text](https://github.com/UCLRadarGroup/DopNet/blob/6221b177c76048d356d0ea62ca5210772be55c1e/images/Picture3-635x500%20(1).png?raw=true)
 
 By eye, it is clear that these gestures look different from each other. The waving gesture which has the oscillatory shape and longer duration, whereas the click gesture happens over the shortest time frame (as a click is only a short sharp action). Then the pinch and swipe actions do show some level of similarity which could make them challenging for a classifier.
 
