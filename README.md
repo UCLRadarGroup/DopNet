@@ -77,7 +77,9 @@ Sonar Navig., vol. 10, no. 9, 2016.
 [3] F. Fioranelli, M. Ritchie, S. Z. Gürbüz, and H. Griffiths, “Feature Diversity for Optimized
 Human Micro-Doppler Classification Using Multistatic Radar,” IEEE Trans. Aerosp.
 Electron. Syst., vol. 53, no. 2, 2017.
+
 [4] D. Tahmoush and J. Silvious, “Remote detection of humans and animals,” Proc. - Appl. Imag. Pattern Recognit. Work., pp. 1–8, 2009. https://ieeexplore.ieee.org/document/5466303
+
 [5] F. Fioranelli, M. Ritchie, and H. Griffiths, “Multistatic human micro-Doppler classification of armed/unarmed personnel,” IET Radar, Sonar Navig., vol. 9, no. 7, pp. 857 865, 2015.
 
 [6] M. Ritchie, F, Fioranelli, H. Borrion, H. Griffiths, “Multistatic Micro-Doppler Radar Features for Classification of Unloaded/Loaded Micro-Drones”, vol 11, 1, IET RSN, Jan 2017.
